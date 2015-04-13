@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+
+    <div><%= message %></div><br>
+
+    <p>Pinn Information</p>
+
+    Event Name: <input id="event-name" type="text" name="event-name" readonly> <br>
+    Event Description:  <input id="event-description" type="text" name="event-description" readonly> <br>
+
+    Comment: <input id= "submit" type="text" size="15">
+    <button name="send" id= "send" class="send">Submit</button>
+
+
+    <ul style="list-style: none" id="chat">
+      <!-- Fill in with the posts from server. -->
+    </ul>
+  </body>
+</html>

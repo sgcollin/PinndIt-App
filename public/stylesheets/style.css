@@ -1,0 +1,31 @@
+body {
+  font: 14px Helvetica, "Lucida Grande", Arial, sans-serif;
+  background-color: #565050;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+a {
+  color: #00B7FF;
+}
+
+footer{
+    color: #FFFFFF;
+    font-size: smaller;
+}
+
+html, body, #map-canvas {
+    height: 90%;
+}
+
+#map-canvas{
+    border-radius: 5px; padding-left: 5%; padding-right: 5%;
+}
+
+#content {
+  margin-left:  20%;
+}
+#vote {
+  float: left;
+  width: 20%;
+}

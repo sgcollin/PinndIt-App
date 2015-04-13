@@ -1,0 +1,140 @@
+#pinntitle {
+	color: #FFFFFF;
+	font-family: sans-serif;
+	font-size: 26px;
+	text-align: center;
+	padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+#iw {
+	background-color: #565050;
+	width: 300px;
+	height: 160px;
+	padding: 15px;
+	border: 4px solid white;
+	border-color: #E84C3D;
+	border-radius: 7px;
+}
+
+#iw-event {
+	background-color: #565050;
+	width: 380px;
+	height: 125px;
+	padding: 15px;
+	border: 4px solid white;
+	border-color: #E84C3D;
+	border-radius: 7px;
+}
+
+#comment {
+  /*display: inline-block;*/
+	vertical-align: top;
+  width: 415px;
+  margin-top: 15px;
+  margin-bottom: 55px;
+}
+
+#ctext {
+  float: left;
+
+  /*margin: 0px 0 5px 0;*/
+}
+
+#cbutton {
+  float:right;
+  margin-top: 6px;
+}
+
+#clist {
+  border: 4px solid white;
+  border-color: #E84C3D;
+  border-radius: 7px;
+  width: 410px;
+  height: 150px;
+  overflow: scroll;
+  background: rgba(255,255,255,0.75);
+  overflow-x: hidden;
+}
+
+#submit {
+	width: 315px;
+}
+
+#create-event {
+  margin-top: 5px;
+}
+
+head {
+  border: 2px solid white;
+}
+
+ul {
+  color: #E84C3D;
+  font-size: 16px;
+}
+
+li {
+  /*border-style: solid;*/
+  border-bottom: 1px solid #E84C3D;
+  width: 325px;
+  padding-bottom: 1px;
+}
+
+button {
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 18px;
+  background: #E84C3D;
+  padding: 5px 5px 5px 5px;
+  text-decoration: none;
+  display: block;
+  margin:0 auto;
+  border-width: 0;
+}
+
+button:hover {
+  background: #eb2b1a;
+  text-decoration: none;
+}
+
+input {
+    border: 4px solid white;
+    border-color: #E84C3D;
+    border-radius: 3px; 
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 8px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 2px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    padding: 5px;
+    background-color: white;
+    /*background: rgba(255,255,255,0.5);*/
+    margin: 5px 0 5px 0;
+    width: 280px;
+    font-family: Arial;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #E84C3D;
+    opacity: .6;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #E84C3D;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #E84C3D;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    #E84C3D;
+}

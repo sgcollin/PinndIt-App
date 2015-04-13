@@ -1,0 +1,47 @@
+/* Up/Down Vote CSS */
+div.upvote {
+    text-align: left;
+}
+
+div.upvote a.upvote-enabled {
+    cursor: pointer;
+}
+
+div.upvote a {
+    color: transparent;
+    background-image: url('/images/upDown.png');
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+    height: 25px;
+}
+
+div.upvote span.count {
+    display: block;
+    font-size: 24px;
+    font-family: Arial, Liberation, Sans, DejaVu Sans, sans-serif;
+    color: #E84C3D;
+    line-height: 1;
+    margin-left: 13px;
+}
+
+div.upvote a.upvote {
+    background-position: 0 -265px;
+}
+
+div.upvote a.upvote.upvote-on {
+    background-position: 0 -230px;
+}
+
+div.upvote a.downvote {
+    background-position: 0 -300px;
+}
+
+div.upvote a.downvote.downvote-on {
+    background-position: 0 -330px;
+}
+
+div.upvote-meta a {
+    background-image: url('/images/upDown.png');
+}
